@@ -10,13 +10,14 @@ module.exports = {
         path: `${__dirname}/src/`,
       },
     },
-    `gatsby-transformer-remark`,
-    `gatsby-plugin-emotion`,
     {
-      resolve: `gatsby-plugin-typography`,
+      resolve: `gatsby-transformer-remark`,
       options: {
-        pathToConfigModule: `src/utils/typography`,
+        plugins: [
+            `gatsby-remark-prismjs`,
+        ],
       },
     },
+    `gatsby-plugin-emotion`,
   ],
 }
