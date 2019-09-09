@@ -3,7 +3,7 @@ title: "gatsbyJS + Netlifyで技術ブログを作りました"
 date: "2019-09-09"
 ---
 
-技術ブログを作りたかったのと、今後の技術メモを取るために、また学習してきたReactを使ってアウトプットしたかったので、<br/>gatsbyJS + Netlifyでブログを作成しました！
+今後の技術メモを取るために技術ブログを作りたかったのと、学習してきたReactを使ってアウトプットしたかったので、<br/>gatsbyJS + Netlifyでブログを作成しました！
 
 ## 作成期間
 
@@ -34,7 +34,7 @@ twitterのOGP画像が反映されず、困っていた時に参考にしまし�
 Excerptを制限したかった時に、この記事を参考にしました。pruneLengthを100にしています。
 
 ### [GatsbyJSでfontawesomeを使う](https://www.corylog.com/gatsby/gatsby014/)
-fontawesome、いいですよね。
+font awesome、いいですよね。
 
 ### [Color -materialize](https://materializecss.com/color.html)
 CSS Frameworkのmaterializeの色使いが割と好きで、またカラーコードも詳細に載っているので、色を選ぶ際に参考にしています。
