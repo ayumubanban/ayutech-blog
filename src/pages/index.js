@@ -6,7 +6,7 @@ import styled from "styled-components"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faTwitter } from "@fortawesome/free-brands-svg-icons"
 import { faGithub } from "@fortawesome/free-brands-svg-icons"
-import avatar from "../images/me_all_copy.jpg"
+import avatar from "../images/me_all_copy2.jpg"
 
 const Container = styled.div`
     margin:0 auto;
