@@ -19,6 +19,7 @@ function SEO({ description, lang, meta, title }) {
             title
             description
             author
+            ogpImg
           }
         }
       }
@@ -26,6 +27,8 @@ function SEO({ description, lang, meta, title }) {
     )
 
     const metaDescription = description || site.siteMetadata.description
+    const ogpImg = site.siteMetadata.ogpImg
+
 
     return (
         <Helmet
@@ -50,6 +53,10 @@ function SEO({ description, lang, meta, title }) {
                 {
                     property: `og:type`,
                     content: `website`,
+                },
+                {
+                    property: `og:image`,
+                    content: ogpImg,
                 },
                 {
                     name: `twitter:card`,
