@@ -1,7 +1,9 @@
 import React from "react"
-import { css } from "@emotion/core"
-import { useStaticQuery, Link, graphql } from "gatsby"
-import { rhythm } from "../utils/typography"
+// import { css } from "@emotion/core"
+import { useStaticQuery, graphql } from "gatsby"
+// import { rhythm } from "../utils/typography"
+import "./layout.css"
+import Header from "./header"
 
 export default ({ children }) => {
     const data = useStaticQuery(
@@ -17,33 +19,29 @@ export default ({ children }) => {
     )
     return(
         <div
-            css={css`
-        margin: 0 auto;
-        max-width: 700px;
-        padding: ${rhythm(2)};
-        padding-top: ${rhythm(1.5)};
-        `}
+            className="layout-div"
         >
-            <Link to={`/`}>
-                <h3
-                    css={css`
-            margin-bottom: ${rhythm(2)};
-            display: inline-block;
-            font-style: normal;
-            `}
+            <Header siteTitle={data.site.siteMetadata.title} />
+            {/* <div className="layout-header">
+                <Link to={`/`}>
+                    <h3
+                        className="layout-h3"
+                    >
+                        {data.site.siteMetadata.title}
+                    </h3>
+                </Link>
+                <Link
+                    to={`/about/`}
+                    className="layout-about"
                 >
-                    {data.site.siteMetadata.title}
-        </h3>
-            </Link>
-            <Link
-                to={`/about/`}
-                css={css`
-            float: right;
-        `}
-            >
-                About
-        </Link>
-            {children}
+                    About
+                </Link>
+            </div> */}
+            <main>{children}</main>
+            <footer>
+                © {new Date().getFullYear()}, Built with {` `}
+                <a href="https://www.gatsbyjs.org">Gatsby</a>
+            </footer>
         </div>
     )
 }
