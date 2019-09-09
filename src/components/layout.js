@@ -18,30 +18,30 @@ export default ({ children }) => {
         `
     )
     return(
-        <div
-            className="layout-div"
-        >
+        <div>
             <Header siteTitle={data.site.siteMetadata.title} />
-            {/* <div className="layout-header">
-                <Link to={`/`}>
-                    <h3
-                        className="layout-h3"
+            <div className="layout-div">
+                {/* <div className="layout-header">
+                    <Link to={`/`}>
+                        <h3
+                            className="layout-h3"
+                        >
+                            {data.site.siteMetadata.title}
+                        </h3>
+                    </Link>
+                    <Link
+                        to={`/about/`}
+                        className="layout-about"
                     >
-                        {data.site.siteMetadata.title}
-                    </h3>
-                </Link>
-                <Link
-                    to={`/about/`}
-                    className="layout-about"
-                >
-                    About
-                </Link>
-            </div> */}
-            <main>{children}</main>
-            <footer>
-                © {new Date().getFullYear()}, Built with {` `}
-                <a href="https://www.gatsbyjs.org">Gatsby</a>
-            </footer>
+                        About
+                    </Link>
+                </div> */}
+                <main>{children}</main>
+                <footer>
+                    © {new Date().getFullYear()}, Built by {` `}
+                    Ayumu.
+                </footer>
+            </div>
         </div>
     )
 }
