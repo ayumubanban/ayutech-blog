@@ -81,7 +81,7 @@ export default ({ data }) => {
                     ))}
                 </ContentBlock>
                 <Sidebar>
-                    <img className="" src={avatar} alt="me" class="avatar" />
+                    <img className="avatar" src={avatar} alt="me" />
                     <div className="card-content">
                         <div className="card-title">
                             アユム
