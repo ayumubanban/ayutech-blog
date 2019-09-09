@@ -1,8 +1,9 @@
 import React from "react"
 // import { css } from "@emotion/core"
-import { useStaticQuery, Link, graphql } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby"
 // import { rhythm } from "../utils/typography"
 import "./layout.css"
+import Header from "./header"
 
 export default ({ children }) => {
     const data = useStaticQuery(
@@ -20,7 +21,8 @@ export default ({ children }) => {
         <div
             className="layout-div"
         >
-            <div className="layout-header">
+            <Header siteTitle={data.site.siteMetadata.title} />
+            {/* <div className="layout-header">
                 <Link to={`/`}>
                     <h3
                         className="layout-h3"
@@ -34,8 +36,12 @@ export default ({ children }) => {
                 >
                     About
                 </Link>
-            </div>
-            {children}
+            </div> */}
+            <main>{children}</main>
+            <footer>
+                © {new Date().getFullYear()}, Built with {` `}
+                <a href="https://www.gatsbyjs.org">Gatsby</a>
+            </footer>
         </div>
     )
 }
