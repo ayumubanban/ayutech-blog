@@ -2,7 +2,8 @@ module.exports = {
   siteMetadata: {
     title: `Pandas Eating Lots`,
     description: `ayumu's technical blog`,
-    author: `ayumu`
+    author: `ayumu`,
+    ogpImg: `./wojciech-then-DijA5f0voGQ-unsplash.jpg`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
