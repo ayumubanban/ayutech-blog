@@ -3,7 +3,7 @@ module.exports = {
     title: `Pandas Eating Lots`,
     description: `ayumu's technical blog`,
     author: `ayumu`,
-    ogpImg: `https://source.unsplash.com/collection/8598671`,
+    ogpImg: `https://imagestoreprivate.files.wordpress.com/2019/09/wojciech-then-dija5f0vogq-unsplash.jpg`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
