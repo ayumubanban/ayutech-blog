@@ -1,6 +1,7 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
+import SEO from "../components/seo"
 
 export default ({ data }) => {
     console.log(data)
@@ -17,6 +18,8 @@ export default ({ data }) => {
                     Amazing Pandas Eating Things
                 </h1> */}
                 {/* <h4>{data.allMarkdownRemark.totalCount} Posts</h4> */}
+
+                <SEO title="ayutech-blog" />
                 {data.allMarkdownRemark.edges.map(({ node }) => (
                     <div key={node.id} className="blog-posts">
                         <Link

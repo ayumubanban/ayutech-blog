@@ -1,8 +1,11 @@
 module.exports = {
   siteMetadata: {
     title: `Pandas Eating Lots`,
+    description: `ayumu's technical blog`,
+    author: `ayumu`
   },
   plugins: [
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
