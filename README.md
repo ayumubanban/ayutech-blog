@@ -8,8 +8,11 @@
   </a>
 </p>
 
-This is the technical blog called "ayutech-blog" which is written by <a href="https://twitter.com/ex_endeavor">Ayumu</a>.
-<br />
-This is built by Gatsby and deployed by Netlify.
-<br />
-This blog is written in only japanese, sorry...
+<p align="center>
+  This is the technical blog called "ayutech-blog" which is written by <a href="https://twitter.com/ex_endeavor">Ayumu</a>.
+  <br />
+  This is built by Gatsby and deployed by Netlify.
+  <br />
+  This blog is written in only japanese, sorry...
+</p>
+
