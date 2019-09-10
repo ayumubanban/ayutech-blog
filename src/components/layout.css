@@ -84,6 +84,7 @@ a{
 }
 
 .index-blogTitle{
+    margin-top: 0px;
     margin-bottom: 10px;
     font-size: 1.2rem;
 }
