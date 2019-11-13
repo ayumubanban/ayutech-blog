@@ -13,6 +13,6 @@ This is the technical blog called "ayutech-blog" which is written by <a href="ht
 <br />
 This is built by Gatsby and deployed by Netlify.
 <br />
-This blog is written in only japanese, sorry...
+This blog is written in only japanese
 </p>
 
