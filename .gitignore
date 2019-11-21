@@ -67,3 +67,7 @@ yarn-error.log
 .pnp.js
 # Yarn Integrity file
 .yarn-integrity
+
+# tmp md
+git_command_frequently.md
+markdown_practice.md
