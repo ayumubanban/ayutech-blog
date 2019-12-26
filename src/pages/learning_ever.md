@@ -42,6 +42,7 @@ date: "2019-11-13"
 - [イラスト図解式 この一冊で全部わかるWeb技術の基本](https://www.amazon.co.jp/%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88%E5%9B%B3%E8%A7%A3%E5%BC%8F-%E3%81%93%E3%81%AE%E4%B8%80%E5%86%8A%E3%81%A7%E5%85%A8%E9%83%A8%E3%82%8F%E3%81%8B%E3%82%8BWeb%E6%8A%80%E8%A1%93%E3%81%AE%E5%9F%BA%E6%9C%AC-%E5%B0%8F%E6%9E%97-%E6%81%AD%E5%B9%B3/dp/4797388811/ref=pd_cp_14_4/357-8554549-5701959?_encoding=UTF8&pd_rd_i=4797388811&pd_rd_r=70a7d84c-57b0-43b2-be47-601829bc7731&pd_rd_w=p3JvL&pd_rd_wg=aaRlt&pf_rd_p=3be1534f-36f4-440c-b13e-b22eee9f7cff&pf_rd_r=JK0A9399FPM8HA4Y3Y68&psc=1&refRID=JK0A9399FPM8HA4Y3Y68)<br/>
 - [Bulma](https://bulma.io/)<br/>
 - [heroku+CloudFrontで静的ファイルを配信する（Webフォント対応）](https://qiita.com/Oakbow/items/9ceb93d47d918aeafe3a)<br/>
+- [Heroku on Rails で asset_sync ではなく Cloudfront を利用する方法](https://www.bokukoko.info/entry/2015/11/15/Heroku_on_Rails_%E3%81%A7_asset_sync_%E3%81%A7%E3%81%AF%E3%81%AA%E3%81%8F_Cloudfront_%E3%82%92%E5%88%A9%E7%94%A8%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95)<br />
 
 <br />
 他にも参考にしたサイトはめちゃくちゃあるのですが、勉強メモを見返してる中で、本当にこれは過去の自分を助けてくれたなぁ〜と思ったものを羅列してみました。
